@@ -1,0 +1,30 @@
+development:
+  adapter: postgresql
+  database: msf
+  username: msf
+  password: MSF_PASSWORD 
+  host: postgres
+  port: 5432
+  pool: 5
+  timeout: 5
+
+production:
+  adapter: postgresql
+  database: msf
+  username: msf
+  password: MSF_PASSWORD
+  host: postgres
+  port: 5432
+  pool: 5
+  timeout: 5
+
+test:
+  adapter: postgresql
+  database: msf_test
+  username: msf
+  password: MSF_PASSWORD
+  host: postgres
+  port: 5432
+  pool: 5
+  timeout: 5
+
